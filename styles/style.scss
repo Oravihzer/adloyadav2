@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@300&family=Rubik:wght@300&display=swap");
+$color1: #9453a6;
+$color2: #8cbf3f;
+$color3: #f2cc0f;
+$color4: #f2f2f2;
+$color5: #0d0d0d;
+
+.nav-cusbg {
+  background-color: $color4 !important;
+}
+
+h1 {
+  font-family: "Rubik";
+}
+main > h1 {
+  text-align: center;
+  transition: 0.1s ease-out 0.1s;
+}
+main > h1:hover {
+  background-color: #8cbf3f;
+  border: solid 0px none;
+  border-radius: 20px;
+}
+h4 {
+  font-family: "Rubik";
+}
+h5 {
+  padding: 5px;
+  margin: 5px;
+  background-color: #9453a6;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out 0.2s;
+}
+h5:hover {
+  padding: 7px;
+  margin: 7px;
+  background-color: #8cbf3f;
+  border-radius: 30px;
+}
+
+.carousel-caption > p {
+  padding: 5px;
+  margin: 5px;
+  background-color: #9453a6;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out 0.2s;
+}
+.carousel-caption > p:hover {
+  padding: 7px;
+  margin: 7px;
+  background-color: #8cbf3f;
+  border-radius: 30px;
+}
+.carousel-inner {
+  transition: 0.2s ease-in 0.2s;
+  border: solid 0px black;
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Rubik";
+}
+.pshit {
+  margin: 5px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: solid 0px black;
+  border-radius: 20px;
+}
+.slider-height {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+li > .nav-link {
+  font-family: "Pattaya";
+  color: #000000;
+  transition: 0.1s ease-in 0.1s;
+}
+li > .nav-link:hover {
+  background-color: #8cbf3f;
+  border: #0d0d0d solid 0px;
+  border-radius: 20px;
+}
+.sponsers {
+  display: flex;
+  justify-content: space-between;
+}
+fieldset > p {
+  border: solid 1px black;
+  font-size: 12px;
+
+  transition: 0.2s ease 0.2s;
+}
+fieldset > p:hover {
+  background-color: #efefef;
+  font-size: 13px;
+}
+.cardim {
+  transition: 0.1s ease-in 0.1s;
+}
+.cardim:hover {
+  background-color: #8cbf3f;
+}
+.cardim1 {
+  transition: 0.1s ease-in 0.1s;
+}
+.cardim1:hover {
+  background-color: #9453a6;
+}
+iframe {
+  border: solid 0px none;
+  border-radius: 50px;
+}
