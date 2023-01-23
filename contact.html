@@ -66,6 +66,86 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="container contact-form">
+        <div class="contact-image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/he/thumb/3/3c/Holon_Logo_2012.svg/1280px-Holon_Logo_2012.svg.png"
+            alt="rocket_contact"
+          />
+        </div>
+        <form method="POST" action="https://formspree.io/f/xwkjpzgy">
+          <h3 style="color: black">השאירו לנו פרטים ונחזור אליכם</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="txtfName">שם פרטי</label>
+                <input
+                  id="txtfName"
+                  type="text"
+                  name="txtfName"
+                  class="form-control"
+                  placeholder="שם פרטי *"
+                  value=""
+                />
+                <br />
+              </div>
+              <div class="form-group">
+                <label for="txtlName">שם משפחה</label>
+                <input
+                  id="txtlName"
+                  type="text"
+                  name="txtlName"
+                  class="form-control"
+                  placeholder="שם משפחה *"
+                  value=""
+                />
+                <br />
+              </div>
+              <div class="form-group">
+                <label for="txtEmail">כתובת אימייל</label>
+                <input
+                  id="txtEmail"
+                  type="text"
+                  name="txtEmail"
+                  class="form-control"
+                  placeholder="כתובת אימייל *"
+                  value=""
+                />
+                <br />
+              </div>
+              <div class="form-group">
+                <label for="txtPhone">טלפון נייד</label>
+                <input
+                  id="txtPhone"
+                  type="text"
+                  name="txtPhone"
+                  class="form-control"
+                  placeholder="טלפון נייד *"
+                  value=""
+                />
+                <br />
+              </div>
+              <div class="form-group">
+                <button class="buttoncont">שלח טופס</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="txtMsg">איזור טקסט חופשי</label>
+                <textarea
+                  id="txtMsg"
+                  name="txtMsg"
+                  class="form-control"
+                  placeholder="איזור טקסט חופשי *"
+                  style="width: 100%; height: 150px"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
     <footer>
       <div>
         <fieldset>
