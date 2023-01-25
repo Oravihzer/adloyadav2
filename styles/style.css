@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@300&family=Rubik:wght@300&display=swap");
 .nav-cusbg {
   background-color: #f2f2f2 !important;
@@ -69,8 +70,8 @@ p {
   display: flex;
   justify-content: space-between;
   justify-items: center;
-  margin: 5px;
-  padding: 5px;
+  margin: 30px;
+  padding: 30px;
   background-color: #f2f2f2;
   border: solid 0px black;
   border-radius: 20px;
@@ -80,7 +81,7 @@ p {
   display: flex;
   justify-content: space-between;
   justify-items: center;
-  flex-direction: column;
+  flex-direction: row;
   margin: 30px;
   padding: 30px;
   background-color: #f2f2f2;
@@ -92,7 +93,17 @@ p {
   padding: 150px;
 }
 
+.para2 {
+  padding: 150px;
+}
+
 .imgpara1 {
+  border: solid 0px none;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.imgpara2 {
   border: solid 0px none;
   border-radius: 20px;
   margin: 20px;
@@ -308,4 +319,98 @@ h3 {
 .bookinglink > a {
   border: 0px solid none;
   border-radius: 20px;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid #9453a6;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 1em 0;
+  color: #8cbf3f;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #9453a6;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #9453a6;
+  border: 1px solid #9453a6;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: #9453a6;
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: 30rem;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  transition: opacity 300ms linear, max-height 300ms linear, min-height 300ms linear;
+  will-change: opacity, max-height, min-height;
+}
+.accordion button[aria-expanded=true] + .accordion-content img {
+  width: 100%;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  min-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear, min-height 200ms linear;
+  will-change: opacity, max-height, min-height;
+}
+.accordion .accordion-content .paragraph {
+  font-weight: lighter;
+  margin: 2em;
+  color: #0d0d0d;
+  word-spacing: 0.2rem;
 }/*# sourceMappingURL=style.css.map */
